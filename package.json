@@ -1,0 +1,19 @@
+{
+  "name": "rsa-implementation",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test src/tests/*",
+    "prepare": "npx husky"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/node": "^25.6.2"
+  }
+}
