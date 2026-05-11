@@ -12,9 +12,9 @@ A from-scratch RSA implementation in TypeScript, using [`generatePrime` from `no
 
 ## Running Tests
 
-\`\`\`bash
+```bash
 bun test
-\`\`\`
+```
 
 ## Why?
 

@@ -1,4 +1,10 @@
-
+/**
+ * Modular exponentiation. Computes x^e mod n 
+ * @param base x
+ * @param exponent e 
+ * @param modulus n
+ * @returns result of x^e mod n
+ */
 export function modPow(base: bigint, exponent: bigint, modulus: bigint): bigint {
     if (modulus === 1n) return 0n;
     let result = 1n;
